@@ -59,3 +59,9 @@ fieldset {
     color: rgb(99, 181, 226);
     font-family: "sunny";
 }
+
+@media (max-width: 768px) {
+    .ratio-21x9 {
+        --bs-aspect-ratio: 100%;
+    }
+}
