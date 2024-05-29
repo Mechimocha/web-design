@@ -53,39 +53,24 @@
     </header>
 
     <main class="container flex-shrink-0 my-3">
-        <h1>Contacto</h1>
-        <h2>Hace tu consulta</h2>
-        <form action="">
-            <fieldset>
-                <legend> Queremos Conocerte</legend>
+        <form class="formulario-contacto mx-auto">
+            <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="nombre">
+            </div>
 
-                <div>
-                    <label for="Nombre">Dinos tu Nombre</label>
-                    <input type="text" name="Nombre" id="Nombre">
-                </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">No vamos a compartirlo con nadie.</div>
+            </div>
 
-                <div>
-                    <label for="email">Cual es tu email</label>
-                    <input type="email" name="email" id="email" placeholder="correo@correo.com" required>
-                </div>
+            <div class="mb-3">
+                <label for="consulta" class="form-label">Dejanos tu mensaje</label>
+                <textarea class="form-control" id="consulta" rows="3"></textarea>
+            </div>
 
-                <div>
-                    <label for="celular">Cual es tu numero</label>
-                    <input type="tel" name="celular" id="celular">
-                </div>
-                <div>
-                    <h3 class="colorDiferente">En que horario podemos contactarte</h3>
-                    <div>
-                        7 a 12am <input type="radio" name="horario" id="contacto">
-                        1 a 5pm <input type="radio" name="horario" id="contacto">
-                        6 a 8pm <input type="radio" name="horario" id="contacto">
-                    </div>
-
-                    <div>
-                        <input type="submit" value="enviar mensaje" class="colorDiferente">
-                    </div>
-                </div>
-            </fieldset>
+            <button type="submit" class="btn btn-primary">Enviar</button>
         </form>
     </main>
 

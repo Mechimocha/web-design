@@ -65,3 +65,7 @@ fieldset {
         --bs-aspect-ratio: 100%;
     }
 }
+
+.formulario-contacto {
+    max-width: 400px;
+}
