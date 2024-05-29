@@ -7,3 +7,8 @@ $info: #00ffef;
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
+.ratio-21x9 {
+    @include media-breakpoint-down(md) {
+        --bs-aspect-ratio: 100%;
+    }
+}
