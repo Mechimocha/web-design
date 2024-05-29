@@ -12,3 +12,12 @@ $info: #00ffef;
         --bs-aspect-ratio: 100%;
     }
 }
+
+@font-face {
+    font-family: "sunny";
+    src: url("../assets/fonts/sunny-spells-basic.ttf");
+}
+
+.font-sunny {
+    font-family: sunny;
+}
