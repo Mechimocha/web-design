@@ -22,3 +22,9 @@ $info: #00ffef;
 .font-sunny {
     font-family: sunny;
 }
+
+body {
+    @extend .d-flex;
+    @extend .flex-column;
+    @extend .h-100;
+}

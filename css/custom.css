@@ -7229,7 +7229,7 @@ textarea.form-control-lg {
   display: table-cell !important;
 }
 
-.d-flex {
+.d-flex, body {
   display: flex !important;
 }
 
@@ -7575,7 +7575,7 @@ textarea.form-control-lg {
   height: 75% !important;
 }
 
-.h-100 {
+.h-100, body {
   height: 100% !important;
 }
 
@@ -7603,7 +7603,7 @@ textarea.form-control-lg {
   flex-direction: row !important;
 }
 
-.flex-column {
+.flex-column, body {
   flex-direction: column !important;
 }
 
