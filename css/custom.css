@@ -11883,4 +11883,8 @@ main .catalog .product p {
   font-family: sunny;
 }
 
+.custom-transition .carousel-inner .carousel-item {
+  transition: transform 1s ease-in;
+}
+
 /*# sourceMappingURL=custom.css.map */

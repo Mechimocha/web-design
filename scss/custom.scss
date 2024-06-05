@@ -28,3 +28,11 @@ body {
     @extend .flex-column;
     @extend .h-100;
 }
+
+.custom-transition {
+    .carousel-inner {
+        .carousel-item {
+            transition: transform 1s ease-in;
+        }
+    }
+}
