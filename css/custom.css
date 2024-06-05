@@ -11844,6 +11844,31 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+main .catalog {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+main .catalog .product {
+  border-radius: 10px;
+  border: 2px solid gray;
+}
+main .catalog .product img {
+  border-radius: 10px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  width: 100%;
+}
+main .catalog .product p {
+  text-align: center;
+  margin-top: 10px;
+}
+@media (max-width: 767.98px) {
+  main .catalog {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
 @media (max-width: 767.98px) {
   .ratio-21x9 {
     --bs-aspect-ratio: 100%;

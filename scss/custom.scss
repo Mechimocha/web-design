@@ -5,6 +5,7 @@ $primary: #010c80;
 $info: #00ffef;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
+@import "_catalog";
 
 // Then add additional custom code here
 .ratio-21x9 {
