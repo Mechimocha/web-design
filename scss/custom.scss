@@ -1,15 +1,10 @@
-// Option A: Include all of Bootstrap
-
-// Include any default variable overrides here (though functions won't be available)
 $primary: #010c80;
 $info: #00ffef;
 
-@import "../node_modules/bootstrap/scss/bootstrap";
 @import "_catalog";
 
-// Then add additional custom code here
 .ratio-21x9 {
-    @include media-breakpoint-down(md) {
+    @media (max-width: 767.98px) {
         --bs-aspect-ratio: 100%;
     }
 }
@@ -24,9 +19,9 @@ $info: #00ffef;
 }
 
 body {
-    @extend .d-flex;
-    @extend .flex-column;
-    @extend .h-100;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .custom-transition {
@@ -35,4 +30,12 @@ body {
             transition: transform 1s ease-in;
         }
     }
+}
+
+.text-primary {
+    color: $primary !important;
+}
+
+.text-info {
+    color: $info !important;
 }
